@@ -34,13 +34,24 @@
             background-color: #fff;
             color: #333;
         }
+        /* Style for the toggle button */
+        .theme-toggle {
+            background: none;
+            border: none;
+            color: inherit;
+            cursor: pointer;
+            font-size: inherit;
+            padding: 0;
+            margin: 0;
+        }
     </style>
 </head>
 <body>
     <header class="header">
         <h1>Saurav Dutta</h1>
         <h2>IISc Bangalore</h2>
-        <button onclick="toggleTheme()">Toggle Theme</button>
+        <!-- Toggle Theme button enclosed in a span -->
+        <span class="theme-toggle" onclick="toggleTheme()">Toggle Theme</span>
     </header>
     <div class="container">
         <!-- Your content goes here -->
